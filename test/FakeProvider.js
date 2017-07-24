@@ -8,7 +8,6 @@ import { fetchPets } from '../src/actions'
 
 const store = createStore(rootReducer);
 store.dispatch(fetchPets());
-
 export default ( props ) => {
   return (
     <Provider store={store}>
